@@ -1,0 +1,7 @@
+input:invalid {
+  border: dashed 1px red;
+}
+
+button {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
