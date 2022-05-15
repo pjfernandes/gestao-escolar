@@ -23,16 +23,16 @@
       <form action="http://httpbin.org/post" method="post">
 
         <div class="form-group">
-          <label for="full_name">Nome completo <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="full_name">Nome completo <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="full_name" name="full_name" placeholder="" required>
           <br>
-          <label for="birth">Nascimento <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="birth">Nascimento <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="date" class="form-control" id="birth" name="birth" placeholder="" required>
         </div>
 
         <div class="form-group">
           <div class="form-check form-check-inline">
-            Sexo &nbsp;<abbr class="text-danger" title="Campo obrigatório">*</abbr>&nbsp;&nbsp;
+            Sexo &nbsp;<abbr class="text-danger" title="Campo obrigatório">*</abbr></label>&nbsp;&nbsp;
             <br>
             <input class="form-check-input" type="radio" name="sexo" id="sexo" value="female" checked>
             <label class="form-check-label text-secondary" for="sexo">
@@ -49,23 +49,26 @@
         </div>
 
         <div class="form-group pt-1">
-          <label for="cpf">CPF <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="cpf">CPF <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="cpf name="cpf" placeholder="111111111-11" required>
           <br>
-          <label for="email">Email <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="email">Email <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" required>
           <br>
-            <label for="phone">Telefone <abbr class="text-danger" title="Campo obrigatório">*</abbr>
-            <input type="text" class="form-control" id="phone" minlength="8" maxlength="9" pattern="0[0-9]*" title="Insira o telefone no formato do exemplo 02198776787" name="phone" placeholder="0XX99999999" required>
+          <label for="phone">Telefone <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
+
+          <input type="text" class="form-control" id="phone" minlength="8" maxlength="9" pattern="[0-9]*"
+            title="Insira o telefone no formato do exemplo 02198776787" name="phone" placeholder="0XX99999999" required>
+
           <br>
-          <label for="cep">CEP <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="cep">CEP <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="cep" name="cep" placeholder="11111-111" minlength="9" maxlength="9" pattern="[0-9]*-[0-9]*" title="Insira o CEP no formato 11111-111" required>
           <br>
           <br>
-          <label for="address">Endereço <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="address">Endereço <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="address" name="address" placeholder="Rua e complemento" required>
           <br>
-          <label for="formation">Formação <abbr class="text-danger" title="Campo obrigatório">*</abbr>
+          <label for="formation">Formação <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="formation" name="formation" placeholder="" required>
 
         </div>
