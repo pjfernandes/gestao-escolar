@@ -2,7 +2,7 @@ input:invalid {
   border: dashed 1px red;
 }
 
-input:valid {
+input:required:valid {
   border: solid 1px green;
   background: url(check.svg);
   background-size: 12px;
