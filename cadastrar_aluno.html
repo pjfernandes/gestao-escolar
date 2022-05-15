@@ -20,7 +20,7 @@
       <form action="http://httpbin.org/post" method="post">
 
         <div class="form-group">
-          <label for="full_name">Nome completo <span class="text-danger">*</span></label>
+          <label for="full_name">Nome completo <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="full_name" name="full_name" placeholder="" required>
           <br>
           <label for="father_name">Nome do pai</label>
@@ -29,13 +29,13 @@
           <label for="mother_name">Nome da mãe</label>
           <input type="text" class="form-control" id="mother_name" name="mother_name" placeholder="">
           <br>
-          <label for="birth">Nascimento <span class="text-danger">*</span></label>
+          <label for="birth">Nascimento <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <input type="date" class="form-control" id="birth" name="birth" placeholder="" required>
         </div>
 
         <div class="form-group">
           <div class="form-check form-check-inline">
-            Sexo &nbsp;<span class="text-danger">*</span></label>&nbsp;&nbsp;
+            Sexo &nbsp;<abbr class="text-danger" title="Campo obrigatório">*</abbr>&nbsp;&nbsp;
             <br>
             <input class="form-check-input" type="radio" name="sexo" id="sexo" value="female" checked>
             <label class="form-check-label text-secondary" for="sexo">
@@ -55,28 +55,29 @@
           <label for="responsible">Nome do responsável (se houver)</label>
           <input type="text" class="form-control" id="responsible" placeholder="" name="responsible">
           <br>
-          <label for="cpf">CPF (responsável ou aluno) <span class="text-danger">*</span></label>
+          <label for="cpf">CPF (responsável ou aluno) <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <input type="text" class="form-control" id="cpf" placeholder="111111111-11" name="cpf" required>
           <br>
-          <label for="email">Email <span class="text-danger">*</span></label>
+          <label for="email">Email <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" name="email" required>
           <br>
-          <label for="phone">Telefone <span class="text-danger">*</span></label>
+            <label for="phone">Telefone <abbr class="text-danger" title="Campo obrigatório">*</abbr>
 
-          <input type="text" class="form-control" id="phone" minlength="8" maxlength="9" pattern="[0-9]*"
-            title="Insira o telefone no formato do exemplo 02198776787" name="phone" placeholder="0XX99999999" required>
+            <input type="text" class="form-control" id="phone" minlength="8" maxlength="9" pattern="0[0-9]*"
+              title="Insira o telefone no formato do exemplo 02198776787" name="phone" placeholder="0XX99999999" required>
+
 
           <br>
-          <label for="cep">CEP <span class="text-danger">*</span></label>
+          <label for="cep">CEP <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <input type="text" class="form-control" id="cep" name="cep" placeholder="11111-111" minlength="9" maxlength="9" pattern="[0-9]*-[0-9]*" title="Insira o CEP no formato 11111-111" required>
           <br>
           <br>
-          <label for="address">Endereço <span class="text-danger">*</span></label>
+          <label for="address">Endereço <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <input type="text" class="form-control" id="address" placeholder="Rua e complemento" name="address" required>
         </div>
         <br>
         <!-- <div class="form-group">
-          <label for="formation">Formação <span class="text-danger">*</span></label>
+          <label for="formation">Formação <abbr class="text-danger" title="Campo obrigatório">*</abbr>
           <select class="form-control" id="formation">
             <option>1</option>
             <option>2</option>
