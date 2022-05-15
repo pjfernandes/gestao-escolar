@@ -2,6 +2,10 @@ input:invalid {
   border: dashed 1px red;
 }
 
+input:valid {
+  border: solid 1px green;
+}
+
 button {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
