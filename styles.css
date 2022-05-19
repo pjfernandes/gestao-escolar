@@ -4,7 +4,7 @@ input:invalid {
 
 input:required:valid {
   border: solid 1px green;
-  background: url(check.svg);
+  background-image: url(check.svg);
   background-size: 12px;
   background-repeat: no-repeat;
   background-position: 0px 12px;

@@ -64,9 +64,20 @@
           <label for="cep">CEP <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="cep" name="cep" placeholder="11111-111" minlength="9" maxlength="9" pattern="[0-9]*-[0-9]*" title="Insira o CEP no formato 11111-111" required>
           <br>
+          <label for="logradouro">Logradouro <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
+          <input type="text" class="form-control" id="logradouro" name="logradouro" placeholder="Logradouro" required>
           <br>
-          <label for="address">Endereço <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
-          <input type="text" class="form-control" id="address" name="address" placeholder="Rua e complemento" required>
+          <label for="numero">Número <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
+          <input type="number" class="form-control" id="numero" name="numero" placeholder="Número" required>
+          <br>
+          <label for="complemento">Complemento</label>
+          <input type="text" class="form-control" id="complemento" name="complemento" placeholder="Complemento">
+          <br>
+          <label for="cidade">Cidade <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
+          <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade" required>
+          <br>
+          <label for="estado">Estado <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
+          <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado" required>
           <br>
           <label for="formation">Formação <abbr class="text-danger" title="Campo obrigatório">*</abbr></label>
           <input type="text" class="form-control" id="formation" name="formation" placeholder="" required>
@@ -85,5 +96,3 @@
     </div>
 </body>
 <script src="script.js"></script>
-
-</html>
